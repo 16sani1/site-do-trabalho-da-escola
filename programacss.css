@@ -1,0 +1,53 @@
+body{
+    background-image: linear-gradient(to bottom,rgba(255, 0, 0, 0.856),white,rgba(0, 0, 255, 0.856));
+}
+header{
+    box-shadow: 5px 5px 5px black;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+}
+header > h1{
+    color: rgba(252, 206, 0, 0.73);
+}
+main{
+    box-shadow: 5px 5px 5px black;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+}
+section > article{
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 1px;
+    margin: 0px;
+    text-align: center;
+}
+nav{
+    background-color: rgba(219, 44, 44, 0.952);
+    padding: 3px;
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+nav > a:hover{
+    text-decoration: underline;
+    color: rgba(20, 103, 211, 0.829);
+}
+article{
+    background-color: lightgray;
+    padding: 5px;
+}
+article > aside{
+    background-color: rgb(165,165,165);
+}
+article#p1 > p{
+    margin: auto; 
+}
