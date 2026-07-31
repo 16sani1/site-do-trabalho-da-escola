@@ -4,9 +4,13 @@ body{
 }
 h1{
     text-align: center;
+    background-color: red;
+    width: 300px;
+    margin:auto;
+    border-radius: 5px;
 }
 div > h4{
-    background-color: rgb(202, 18, 67);
+    background-color: rgba(18, 92, 202, 0.822);
     margin: 7px;
     padding: 20px;
     border-radius: 10px;
