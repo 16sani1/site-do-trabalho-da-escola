@@ -1,6 +1,6 @@
 @charset "utf-8"; 
 body{
-    background-image: linear-gradient(to bottom,rgba(255, 0, 0, 0.856),white,rgba(0, 0, 255, 0.856));
+    background-image: linear-gradient(to bottom,rgba(155, 29, 29, 0.699),white,rgba(0, 0, 255, 0.699));
 }
 header{
     box-shadow: 5px 5px 5px black;
@@ -8,11 +8,31 @@ header{
     padding: 10px;
     background-color: white;
 }
-h3#entrevistado{
-    padding-bottom: 6px;
+div#p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-h3#entrevistador{
-    padding-top: 6px;
+div#perfil{
+    display: flex;
+    background-color: rgb(20, 123, 214);
+    width: 100%;
+}
+div#perfil > img{
+    display: flex;
+    padding: 4px;
+}
+@media (max-width: 600px) {
+   div#perfil{
+    flex-direction: column;
+
+}
+section{
+    flex-direction: column;
+}
+}
+
+div#p{
+    text-align: center;
+    width: 100%;
 }
 header > h1{
     color: rgb(252, 206, 0);
@@ -58,7 +78,6 @@ nav > a:hover{
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
     padding: 12px;
-
 }
 @media (max-width: 768px){
 
