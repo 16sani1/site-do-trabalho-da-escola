@@ -1,0 +1,106 @@
+@charset "utf-8"; 
+body{
+    background-image: linear-gradient(to bottom,rgba(155, 29, 29, 0.699),white,rgba(0, 0, 255, 0.699));
+}
+header{
+    box-shadow: 5px 5px 5px black;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+}
+div#p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+div#perfil{
+    display: flex;
+    background-color: rgb(20, 123, 214);
+    width: 100%;
+}
+div#perfil > img{
+    display: flex;
+    padding: 4px;
+}
+@media (max-width: 600px) {
+   div#perfil{
+    flex-direction: column;
+
+}
+section{
+    flex-direction: column;
+}
+}
+
+div#p{
+    text-align: center;
+    width: 100%;
+}
+header > h1{
+    color: rgb(252, 206, 0);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.459);
+}
+main{
+    box-shadow: 5px 5px 5px black;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+}
+section > article{
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 1px;
+    margin: 0px;
+    text-align: center;
+}
+nav{
+    background-color: rgba(219, 44, 44, 0.952);
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+    align-items: center;
+}
+nav > a:hover{
+    text-decoration: underline;
+    color: rgb(253, 253, 253);
+    background-color: rgb(29, 135, 221);
+    transition-duration: .3s;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    padding: 12px;
+}
+@media (max-width: 768px){
+
+    nav{
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    nav > a{
+        margin-right: 0;
+        padding: 10px;
+        border-top: 1px solid rgba(255,255,255,.2);
+    }
+
+}
+
+article{
+    background-color: lightgray;
+    padding: 5px;
+}
+article > aside{
+    background-color: rgb(165,165,165);
+}
+article#p1 > p{
+    margin: auto; 
+}
